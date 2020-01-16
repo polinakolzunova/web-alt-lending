@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEB ALTERNATIVE | HOME</title>
+    <link rel="stylesheet" href="assets/fonts/montserrat.css">
+    <link rel="stylesheet" href="assets/fonts/roboto.css">
+    <link rel="stylesheet" href="assets/less/main.css">
+</head>
+<body>
+<header class="page-header">
+    <div class="page-header__wrap">
+        <div class="page-header__logo">
+            <a href="https://web-alt.ru">
+                <img class="page-header__logo-icon" src="assets/img/Logo%20Horiz.png" alt="WEB ALTERNATIVE">
+                <img class="page-header__logo-title" src="assets/img/WEB%20ALTERNATIVE.png" alt="WEB ALTERNATIVE">
+            </a>
+        </div>
+        <div class="page-header__phone">
+            <button href="#indexModal" class="page-header__phone-modal">Заказать звонок</button>
+        </div>
+        <nav class="page-header__nav">
+            <ul class="page-header__nav-list">
+                <li class="page-header__nav-item">
+                    <a href="#">О студии</a>
+                </li>
+                <li class="page-header__nav-item">
+                    <a href="#">Портфолио</a>
+                </li>
+                <li class="page-header__nav-item">
+                    <a href="#">Наши услуги</a>
+                </li>
+                <li class="page-header__nav-item">
+                    <a href="#">Новости</a>
+                </li>
+                <li class="page-header__nav-item">
+                    <a href="#">Отзывы</a>
+                </li>
+                <li class="page-header__nav-item">
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <button id="menuToggle" class="page-header__btn-nav">
+            <i class="icon-hamburger"></i>
+        </button>
+    </div>
+</header>
+<main>
+    <section class="promo">
+        <!--
+         bg (bgi) - d: gradient img, code fade - m: gradient img
+         text block
+         button block
+         image block (::after) - d: big e - m: big e, circle
+         -->
+        <div class="container">
+            <div class="promo__text">
+                <h2><i class="icon-cart"></i>E-commerce</h2>
+                <p class="promo__text-big">
+                    Интернет-магазин принесет вам максимум прибыли!
+                </p>
+                <p class="promo__text-small">
+                    Рассказываем что такое интернет магазин и зачем это нужно.
+                </p>
+            </div>
+            <div class="promo__image">
+                <img src="assets/img/Mockup%20img.png" alt="mockup">
+            </div>
+            <div class="promo__callback">
+                <button id="btnCallback" class="promo__callback-btn">
+                    <span class="promo__callback-btn_mobile">Заказать звонок</span>
+                    <span class="promo__callback-btn_desktop">Выйти на связь</span>
+                </button>
+                <p>Ответим на любой вопрос</p>
+            </div>
+        </div>
+    </section>
+    <section class="how-work">
+        <div class="container">
+            <h2>КАК МЫ РАБОТАЕМ НАД ВАШИМ ПРОЕКТОМ</h2>
+            <ul class="how-work__list">
+                <li class="how-work__item">
+                    <input type="checkbox" id="how-work-item-1">
+                    <div class="row">
+                        <div class="how-work__item-number">01</div>
+                        <div class="how-work__item-icon how-work__item-icon_one"></div>
+                        <div class="how-work__item-title">АНАЛИЗ ЦЕЛЕВОЙ АУДИТОРИИ</div>
+                        <label for="how-work-item-1" class="how-work__item-more">
+                            <span>Подробнее</span>
+                            <i class="icon-arrow"></i>
+                        </label>
+                    </div>
+                    <div class="how-work__item-text">
+                        <i class="icon-cross" data-for="how-work-item-1"></i>
+                        <h3>Принимайте платежи картой, с помощью удобных платежных систем!</h3>
+                        <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe, и ваши покупатели смогут безопасно оплатить товар или услугу картой Visa или Mastercard, Яндекс.Деньгами, со счета мобильного телефона, через Сбербанк Онлайн или Альфа Клик.</p>
+                    </div>
+                </li>
+                <li class="how-work__item">
+                    <input type="checkbox" id="how-work-item-2">
+                    <div class="row">
+                        <div class="how-work__item-number">02</div>
+                        <div class="how-work__item-icon how-work__item-icon_two"></div>
+                        <div class="how-work__item-title">ПОДГОТОВКА ТЗ</div>
+                        <label for="how-work-item-2" class="how-work__item-more">
+                            <span>Подробнее</span>
+                            <i class="icon-arrow"></i>
+                        </label>
+                    </div>
+                    <div class="how-work__item-text">
+                        <i class="icon-cross" data-for="how-work-item-2"></i>
+                        <h3>Принимайте платежи картой, с помощью удобных платежных систем!</h3>
+                        <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe, и ваши покупатели смогут безопасно оплатить товар или услугу картой Visa или Mastercard, Яндекс.Деньгами, со счета мобильного телефона, через Сбербанк Онлайн или Альфа Клик.</p>
+                    </div>
+                </li>
+                <li class="how-work__item">
+                    <input type="checkbox" id="how-work-item-3">
+                    <div class="row">
+                        <div class="how-work__item-number">03</div>
+                        <div class="how-work__item-icon how-work__item-icon_three"></div>
+                        <div class="how-work__item-title">ПОДПИСАНИЕ ДОГОВОРА И ОПЛАТА</div>
+                        <label for="how-work-item-3" class="how-work__item-more">
+                            <span>Подробнее</span>
+                            <i class="icon-arrow"></i>
+                        </label>
+                    </div>
+                    <div class="how-work__item-text">
+                        <i class="icon-cross" data-for="how-work-item-3"></i>
+                        <h3>Принимайте платежи картой, с помощью удобных платежных систем!</h3>
+                        <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe, и ваши покупатели смогут безопасно оплатить товар или услугу картой Visa или Mastercard, Яндекс.Деньгами, со счета мобильного телефона, через Сбербанк Онлайн или Альфа Клик.</p>
+                    </div>
+                </li>
+                <li class="how-work__item">
+                    <input type="checkbox" id="how-work-item-4">
+                    <div class="row">
+                        <div class="how-work__item-number">04</div>
+                        <div class="how-work__item-icon how-work__item-icon_four"></div>
+                        <div class="how-work__item-title">РАЗРАБОТКА САЙТА ИНТЕРНЕТ-МАГАЗИНА</div>
+                        <label for="how-work-item-4" class="how-work__item-more">
+                            <span>Подробнее</span>
+                            <i class="icon-arrow"></i>
+                        </label>
+                    </div>
+                    <div class="how-work__item-text">
+                        <i class="icon-cross" data-for="how-work-item-4"></i>
+                        <h3>Принимайте платежи картой, с помощью удобных платежных систем!</h3>
+                        <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe, и ваши покупатели смогут безопасно оплатить товар или услугу картой Visa или Mastercard, Яндекс.Деньгами, со счета мобильного телефона, через Сбербанк Онлайн или Альфа Клик.</p>
+                    </div>
+                </li>
+                <li class="how-work__item">
+                    <input type="checkbox" id="how-work-item-5">
+                    <div class="row">
+                        <div class="how-work__item-number">05</div>
+                        <div class="how-work__item-icon how-work__item-icon_five"></div>
+                        <div class="how-work__item-title">НАСТРОЙКА И НАПОЛНЕНИЕ ИНТЕРНЕТ-МАГАЗИНА</div>
+                        <label for="how-work-item-5" class="how-work__item-more">
+                            <span>Подробнее</span>
+                            <i class="icon-arrow"></i>
+                        </label>
+                    </div>
+                    <div class="how-work__item-text">
+                        <i class="icon-cross" data-for="how-work-item-5"></i>
+                        <h3>Принимайте платежи картой, с помощью удобных платежных систем!</h3>
+                        <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe, и ваши покупатели смогут безопасно оплатить товар или услугу картой Visa или Mastercard, Яндекс.Деньгами, со счета мобильного телефона, через Сбербанк Онлайн или Альфа Клик.</p>
+                    </div>
+                </li>
+                <li class="how-work__item">
+                    <input type="checkbox" id="how-work-item-6">
+                    <div class="row">
+                        <div class="how-work__item-number">06</div>
+                        <div class="how-work__item-icon how-work__item-icon_six"></div>
+                        <div class="how-work__item-title">ПРИВЛЕЧЕНИЕ ПОКУПАТЕЛЕЙ</div>
+                        <label for="how-work-item-6" class="how-work__item-more">
+                            <span>Подробнее</span>
+                            <i class="icon-arrow"></i>
+                        </label>
+                    </div>
+                    <div class="how-work__item-text">
+                        <i class="icon-cross" data-for="how-work-item-6"></i>
+                        <h3>Принимайте платежи картой, с помощью удобных платежных систем!</h3>
+                        <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe, и ваши покупатели смогут безопасно оплатить товар или услугу картой Visa или Mastercard, Яндекс.Деньгами, со счета мобильного телефона, через Сбербанк Онлайн или Альфа Клик.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="features-image">
+                <img class="features-image__phone" src="assets/img/mockup_phone.png" alt="mockup phone">
+                <div class="features-image__items">
+                    <img class="features-image__item_payment" src="assets/img/mockup_phone.png" alt="mockup phone">
+                    <img class="features-image__item_1c" src="assets/img/mockup_phone.png" alt="mockup phone">
+                    <img class="features-image__item_security" src="assets/img/mockup_phone.png" alt="mockup phone">
+                </div>
+            </div>
+            <div class="features-content">
+                <div class="features-content__item" id="featuresPayment">
+                    <div class="features-content__image">
+                        <img src="assets/img/features_image_payment.png" alt="features_image_payment">
+                    </div>
+                    <h3>Принимайте платежи картой, с помощью
+                        удобных платежных систем!</h3>
+                    <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe,
+                        и ваши покупатели смогут безопасно оплатить товар или услугу картой Visa или Mastercard,
+                        Яндекс.Деньгами, со счета мобильного телефона, через Сбербанк Онлайн или Альфа Клик.</p>
+                    <div class="features-content__logo">
+                        <img src="assets/img/logo_sberbank.png" alt="logo sberbank">
+                        <img src="assets/img/logo_yandex.png" alt="logo yandex">
+                        <img src="assets/img/logo_robokassa.png" alt="logo robokassa">
+                    </div>
+                </div>
+                <div class="features-content__item" id="features1C">
+                    <div class="features-content__image">
+                        <img src="assets/img/features_image_1c.png" alt="features_image_1c">
+                    </div>
+                    <h3>Интегрируем неинтегрируемое!</h3>
+                    <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe,
+                        и ваши покупатели смогут безопасно.</p>
+                    <div class="features-content__logo">
+                        <img src="assets/img/logo_sberbank.png" alt="logo sberbank">
+                        <img src="assets/img/logo_yandex.png" alt="logo yandex">
+                        <img src="assets/img/logo_robokassa.png" alt="logo robokassa">
+                    </div>
+                </div>
+                <div class="features-content__item" id="featuresSecurity">
+                    <div class="features-content__image">
+                        <img src="assets/img/features_image_security.png" alt="features_image_security">
+                    </div>
+                    <h3>Принимайте картой, пустые нули !</h3>
+                    <p>Подключите один из надежных сервисов: Яндекс.Деньги, Яндекс.Касса, PayPal, Robokassa или Stripe,
+                        и ваши покупатели смогут безопасно.</p>
+                    <div class="features-content__logo">
+                        <img src="assets/img/logo_sberbank.png" alt="logo sberbank">
+                        <img src="assets/img/logo_yandex.png" alt="logo yandex">
+                        <img src="assets/img/logo_robokassa.png" alt="logo robokassa">
+                    </div>
+                </div>
+            </div>
+            <div class="features__buttons">
+                <button data-for="featuresPayment">Онлайн оплата</button>
+                <button data-for="features1C">CRM & 1C</button>
+                <button data-for="featuresSecurity">Безопасность</button>
+            </div>
+        </div>
+    </section>
+    <section class="cases">
+        <div class="container">
+            <h2 class="cases__h2">
+                <span class="cases__h2_desktop">кейсы говорят за себя</span>
+                <span class="cases__h2_mobile">наши кейсы</span>
+            </h2>
+            <div class="cases__list">
+                <div class="cases__item">
+                    <div class="cases__item-image"><img src="assets/img/case1.jpg" alt="case 1"></div>
+                    <h3 class="cases__item-title">Королевство цветов</h3>
+                    <span class="cases__item-type">Интернет-магазин</span>
+                </div>
+                <div class="cases__item">
+                    <div class="cases__item-image"><img src="assets/img/case2.jpg" alt="case 2"></div>
+                    <h3 class="cases__item-title">Мастер климат</h3>
+                    <span class="cases__item-type">Интернет-магазин</span>
+                </div>
+                <div class="cases__item">
+                    <div class="cases__item-image"><img src="assets/img/case3.jpg" alt="case 3"></div>
+                    <h3 class="cases__item-title">Новая аптека</h3>
+                    <span class="cases__item-type">Интернет-магазин</span>
+                </div>
+                <div class="cases__item">
+                    <div class="cases__item-image"><img src="assets/img/case4.jpg" alt="case 4"></div>
+                    <h3 class="cases__item-title">Восток Тех Резерв</h3>
+                    <span class="cases__item-type">Интернет-магазин</span>
+                </div>
+            </div>
+            <div class="cases__feedback">
+                <p class="cases__feedback-text">
+                    <i class="icon-love"></i>
+                    <span>Оставьте свою заявку, чтобы получить БЕСПЛАТНУЮ консултацию!</span>
+                </p>
+                <button class="cases__feedback-modal">Оставить заявку</button>
+            </div>
+        </div>
+    </section>
+    <section class="clients">
+        <div class="container">
+            <h2>НАШИ КЛИЕНТЫ</h2>
+            <div class="clients__slider">
+                <div class="clients__list">
+                    <div class="clients__item">
+                        <span class="clients__item-number">01</span>
+                        <div class="clients__item-image">
+                            <img src="assets/img/client1.png" alt="client 1">
+                        </div>
+                    </div>
+                    <div class="clients__item">
+                        <span class="clients__item-number">02</span>
+                        <div class="clients__item-image">
+                            <img src="assets/img/client2.png" alt="client 2">
+                        </div>
+                    </div>
+                    <div class="clients__item">
+                        <span class="clients__item-number">03</span>
+                        <div class="clients__item-image">
+                            <img src="assets/img/client3.png" alt="client 3">
+                        </div>
+                    </div>
+                    <div class="clients__item">
+                        <span class="clients__item-number">04</span>
+                        <div class="clients__item-image">
+                            <img src="assets/img/client4.png" alt="client 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clients__toggle">
+                <button class="clients__toggle_left" id="clientLeft"><i class="icon-arrow"></i></button>
+                <button class="clients__toggle_right" id="clientRight"><i class="icon-arrow"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__content">
+                <p class="feedback__content-text-prime">Интернет-магазин, который приносит прибыль!</p>
+                <div class="feedback__content-box">
+                    <p><i class="icon-plus"></i> Получите бесплатно</p>
+                    <ul class="feedback__list">
+                        <li class="feedback__item"><i class="icon-plus"></i>Личная косультация</li>
+                        <li class="feedback__item"><i class="icon-plus"></i>Стратегия запуска и продвижения</li>
+                        <li class="feedback__item"><i class="icon-plus"></i>Коммерческое предложение</li>
+                    </ul>
+                </div>
+                <p class="feedback__content-text-info">Оставьте заявку, чтобы узнать, как создать свой Интернет-магазин</p>
+            </div>
+            <div class="feedback__form">
+                <form action="/" method="post">
+                    <div class="feedback__form-group">
+                        <input type="text" name="name" placeholder="Имя">
+                    </div>
+                    <div class="feedback__form-group">
+                        <input type="tel" name="phone" placeholder="+7 (000) 000-00-00">
+                    </div>
+                    <div class="feedback__form-group">
+                        <textarea name="message" placeholder="Расскажите о своей задаче"></textarea>
+                    </div>
+                    <div class="feedback__form-group feedback__form-group_checkbox">
+                        <input type="checkbox" id="chbConsent" name="chbConsent">
+                        <label for="chbConsent">
+                            Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных.
+                        </label>
+                    </div>
+                    <div class="feedback__form-group feedback__form-group_captcha">
+                        <img class="desktop" src="assets/img/recaptcha-desktop.png" alt="recaptcha">
+                        <img class="mobile" src="assets/img/recaptcha-mobile.png" alt="recaptcha">
+                    </div>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="page-footer">
+    <div class="page-footer__wrap">
+        <div class="page-footer__logo">
+            <img src="assets/img/Logo.png" alt="WEB ALTERNATIVE">
+        </div>
+        <div class="page-footer__contacts">
+            <h3>Контакты</h3>
+            <ul class="footer-contacts__list">
+                <li class="footer-contacts__item">
+                    ул. Волочаевская, 8г
+                </li>
+                <li class="footer-contacts__item">
+                    +7(4212)470-300
+                </li>
+                <li class="footer-contacts__item">
+                    +7(4212)25-30-85
+                </li>
+            </ul>
+        </div>
+        <div class="page-footer__social">
+            <h3>Мы в соцсетях</h3>
+            <ul class="footer-social__list">
+                <li class="footer-contacts__item">
+                    <a href="#">Instagram</a>
+                </li>
+                <li class="footer-social__item">
+                    <a href="#">Facebook</a>
+                </li>
+                <li class="footer-social__item">
+                    <a href="#">Vkontakte</a>
+                </li>
+            </ul>
+        </div>
+        <div class="page-footer__map">
+            <span class="page-footer__map-text">Найди нас <br>на карте</span>
+            <div class="page-footer__map-img">
+                <img src="assets/img/Map.png" alt="map">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/jquery-3.3.1.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
